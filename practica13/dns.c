@@ -43,8 +43,8 @@ void main()
   unsigned char buffer[512];    /* Buffer para almacenar paquetes recibidos */
   unsigned char encabezado[48]; /* Encabezado DNS */
   unsigned char direccion[50];  /* Arreglo donde almacenaremos la direccion Web */
-  unsigned char direc[50] = "www.youtube.com";
-  unsigned char di[50] = "youtube.com";
+  unsigned char direc[50] = "www.escom.ipn.mx";
+  unsigned char di[50] = "escom.ipn.mx";
   struct sockaddr_in cliente;  /* Estructura que usaremos para configurar el cliente */
   struct sockaddr_in servidor; /* Estructura que usaremos para configurar el servidor */
   memset(buffer, 0, 512);      /* Limpiamos la cadena para evitar posibles errores */
